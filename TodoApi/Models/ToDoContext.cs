@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TodoApi.Models
 {
-    public class ToDoContext : DbContext
+    public class TodoContext : DbContext
     {
-        public ToDoContext(DbContextOptions<ToDoContext> options) : base(options)
+        public TodoContext(DbContextOptions<TodoContext> options) : base(options)
         {
         }
 
