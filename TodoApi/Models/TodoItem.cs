@@ -7,7 +7,7 @@ namespace TodoApi.Models
 {
     public class TodoItem
     {
-        public long Id { get; set; } //functions as unique key in rdms
+        public long Id { get; set; } //works as unique key in rdms
         public string Name { get; set; }
         public bool IsComplete { get; set; }
     }
