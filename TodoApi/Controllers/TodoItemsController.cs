@@ -17,7 +17,7 @@ namespace TodoApi.Controllers
      * each of the CRUD methods in the controller.
      */
 
-    [Route("api/[controller]")]
+    [Route("api/todoitems")]
     [ApiController]
     public class TodoItemsController : ControllerBase
     {
